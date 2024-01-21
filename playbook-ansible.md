@@ -3,6 +3,7 @@
 ## Ansible Playbook
 
 1. Replace the <mark style="color:red;">`hosts:`</mark> option to <mark style="color:red;">**localhost**</mark> or other <mark style="color:red;">**host**</mark> of your choice and the credentials.
+2. Replace the <mark style="color:red;">`admin`</mark> user and <mark style="color:red;">`admin password`</mark> in the <mark style="color:red;">`Create Superuser if not Exists`</mark> task.
 
 ```yaml
 - name: Provision PostgreSQL, Redis, and NetBox with Nginx
