@@ -303,3 +303,4 @@ sudo ln -s /etc/nginx/sites-available/netbox /etc/nginx/sites-enabled/netbox
 sudo systemctl restart nginx
 ```
 
+4. After that navigate to the dashboard with <mark style="color:red;">`https://your_ip_address`</mark> with the credentials (<mark style="color:red;">`admin`</mark>/<mark style="color:red;">`adminpassword`</mark>).
