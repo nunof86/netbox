@@ -4,6 +4,7 @@
 
 1. Replace the <mark style="color:red;">`hosts:`</mark> option to <mark style="color:red;">**localhost**</mark> or other <mark style="color:red;">**host**</mark> of your choice and the credentials.
 2. Replace the <mark style="color:red;">`admin`</mark> user and <mark style="color:red;">`admin password`</mark> in the <mark style="color:red;">`Create Superuser if not Exists`</mark> task.
+3. Change the style="color:red;">`server_name</mark> and style="color:red;">`your_ip_address</mark> to match your needs.
 
 ```yaml
 ---
@@ -246,11 +247,10 @@
       replace:
         path: /etc/nginx/sites-enabled/netbox
         regexp: 'server_name .*;'
-        replace: 'server_name 192.168.117.134;'
+        replace: 'server_name your_ip_address;'
 
     - name: Restart Nginx Service
       become: yes
       service:
         name: nginx
         state: restarted
-```
