@@ -4,7 +4,7 @@
 
 1. Replace the <mark style="color:red;">`hosts:`</mark> option to <mark style="color:red;">**localhost**</mark> or other <mark style="color:red;">**host**</mark> of your choice and the credentials.
 2. Replace the <mark style="color:red;">`admin`</mark> user and <mark style="color:red;">`admin password`</mark> in the <mark style="color:red;">`Create Superuser if not Exists`</mark> task.
-3. Change the <mark style="color:red;">`server_name</mark> and your_ip_address</mark> to match your needs.
+3. Change the <mark style="color:red;">`server_name`</mark> and<mark style="color:red;">`your_ip_address`</mark> to match your needs.
 
 ```yaml
 ---
