@@ -6,6 +6,8 @@
 2. Replace the <mark style="color:red;">`admin`</mark> user and <mark style="color:red;">`admin password`</mark> in the <mark style="color:red;">`Create Superuser if not Exists`</mark> task.
 
 ```yaml
+---
+
 - name: Provision PostgreSQL, Redis, and NetBox with Nginx
   hosts: localhost
   become: yes
